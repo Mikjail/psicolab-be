@@ -1,3 +1,3 @@
 # HOW TO RUN SERVER
-### 1. Install denon
-### denon start
+1. Install denon
+2. denon start
