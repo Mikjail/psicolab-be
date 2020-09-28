@@ -1,4 +1,5 @@
-import { Model, DataTypes, Relationships } from 'https://deno.land/x/denodb/mod.ts';
+import { Model, DataTypes, Relationships } from '../../deps/deps.ts';
+import { User } from "../userModel/index.ts";
 
 export class Test extends Model {
   static table = 'tests';
@@ -17,7 +18,7 @@ export class Question extends Model {
   static fields = {
     "id": { primaryKey: true, autoIncrement: true, type: DataTypes.INTEGER },
     "points": DataTypes.FLOAT,
-    "test_id": Relationships.belongsTo(Test),
+    "testId": Relationships.belongsTo(Test),
     "description": DataTypes.TEXT,
     "correctAnswer":  DataTypes.STRING,
   }
@@ -32,13 +33,33 @@ export class Answer extends Model {
   static timestamps = true;
   static fields = {
     "id": { primaryKey: true, autoIncrement: true },
-    "sequence" : DataTypes.INTEGER,
+    "sequence": DataTypes.INTEGER,
     "answer": DataTypes.STRING,
-    "question_id" : Relationships.belongsTo(Question),
-    "test_id" :   Relationships.belongsTo(Test)
+    "questionId": Relationships.belongsTo(Question),
+    "testId":   Relationships.belongsTo(Test)
   }
 
   static question(){
     return this.hasOne(Question);
   }
+}
+
+export class Result extends Model {
+  static table = 'results';
+  static timestamps = true;
+  static fields = {
+    "id": { primaryKey: true, autoIncrement: true },
+    "userId": Relationships.belongsTo(User),
+    "questionId": Relationships.belongsTo(Question),
+    "answerId": Relationships.belongsTo(Answer)
+  }
+
+  static users() {
+    return this.hasMany(User);
+  }
+}
+
+export interface PostResult {
+  questionId: string;
+  answerSelected: string;
 }

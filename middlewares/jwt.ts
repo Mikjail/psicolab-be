@@ -10,7 +10,7 @@ export const JwtConfig = {
   algorithm: "HS256"
 };
 
-export async function jwtAuth( ctx: Context<any>): Promise<boolean> {
+export async function jwtAuth( ctx: Context<any>): Promise<{ isValid: boolean, userId?: any }> {
     return new Promise( async(resolve, reject) => {
       // Get the token from the request
       const token = ctx.request.headers
@@ -19,18 +19,18 @@ export async function jwtAuth( ctx: Context<any>): Promise<boolean> {
       
       // reject request if token was not provide
       if (!token) {
-        resolve(false);
+        resolve({isValid: false});
         return;
       }
 
       // check the validity of the token
       const validatedJwt = await validateJwt({ jwt: token, key: JwtConfig.secretKey,  algorithm: "HS256"})
-      
+    
       if(!validatedJwt.isValid){
-        resolve(false);
+        resolve({ isValid: false });
         return;
       }
 
-      resolve(true);
+      resolve({ isValid: true, userId: (<any>validatedJwt).payload.id   } );
     })
   }
