@@ -49,6 +49,7 @@ export class Result extends Model {
   static timestamps = true;
   static fields = {
     "id": { primaryKey: true, autoIncrement: true },
+    "testId": Relationships.belongsTo(Test),
     "userId": Relationships.belongsTo(User),
     "questionId": Relationships.belongsTo(Question),
     "answerId": Relationships.belongsTo(Answer)
@@ -60,6 +61,9 @@ export class Result extends Model {
 }
 
 export interface PostResult {
+  id: number;
+  userId: string;
   questionId: string;
-  answerSelected: string;
+  answerId: string;
+  testId: string;
 }

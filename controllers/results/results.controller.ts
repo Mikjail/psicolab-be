@@ -7,17 +7,26 @@ export class ResultsController {
     
   @UseHook(MyHook, 'payload')
     @Post('/save') // or specific path @Get("/hello")
-    async getQuestions(@Body() body: Array<PostResult>, @Res() res: any) {
+    async getQuestions(@Body() body: PostResult, @Res() res: any) {
       try {
-        const results = body.map( result => (
-          {
-            ...result,
-            userId: res.result.userId
-          })
-          )
-        if(results){
-          await Result.create(results as any);  
+        const { userId } = res.result;
+
+        const { questionId, testId } = body;
+        
+        const whereQuery = { 
+          userId,
+          questionId,
+          testId
         }
+
+        const questionAnswered = await Result.where(whereQuery).all();
+        
+        if(questionAnswered.length > 0){
+          await Result.where(whereQuery).update({...body } as any);
+        } else {
+          await Result.create({...body, userId: res.result.userId } as any);  
+        }
+        return await Result.where(whereQuery).all();
       } catch (error) {
         return error
       }
