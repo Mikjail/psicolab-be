@@ -58,6 +58,10 @@ export class Result extends Model {
   static users() {
     return this.hasMany(User);
   }
+  
+  static questions(){
+    return this.hasMany(Question);
+  }
 }
 
 export interface PostResult {
