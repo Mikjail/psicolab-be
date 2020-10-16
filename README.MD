@@ -20,4 +20,7 @@
 
 
 # TO DO
-- [ ] Fix questions DB (change correct_answer letter to answerId)
+- [ ] DB - Dockerize Postgres (Including create and insert of base DB)
+- [ ] BE - Dockerize BE
+- [ ] UI - Add Login
+- [ ] UI - Add Result summary
