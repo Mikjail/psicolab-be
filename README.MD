@@ -20,4 +20,4 @@
 
 
 # TO DO
-- [] Fix questions DB (change correct_answer letter to answerId)
+- [ ] Fix questions DB (change correct_answer letter to answerId)
