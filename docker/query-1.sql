@@ -32,5 +32,5 @@ CREATE TABLE results (
   user_id integer, 
   question_id integer, 
   answer_id integer, 
-  created_at timestamp,
+  created_at timestamp default current_timestamp,
   updated_at timestamp);

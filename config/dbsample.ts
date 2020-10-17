@@ -8,23 +8,23 @@ questions.set('1',{
   "alternatives": [
     {
       "id": "a",
-      "answer": "continuar - empujar"
+      "text": "continuar - empujar"
     },
     {
       "id": "b",
-      "answer": "pie - enemigo"
+      "text": "pie - enemigo"
     },
     {
       "id": "c",
-      "answer": "beber - alimento"
+      "text": "beber - alimento"
     },
     {
       "id": "d",
-      "answer": "muchacha - industria"
+      "text": "muchacha - industria"
     },
     {
       "id": "e",
-      "answer": "beber - enemigo"
+      "text": "beber - enemigo"
     }
   ],
   "correct_phrase": "<span>beber</span> es a agua como comer es a <span>alimento</span>",
@@ -40,24 +40,24 @@ questions.set('2', {
   "alternatives": [
     {
       "id": "a",
-      "answer": "cena - esquina"
+      "text": "cena - esquina"
     },
     {
       "id": "b",
-      "answer": "suave - mañana"
+      "text": "suave - mañana"
     },
     {
       "id": "c",
-      "answer": "puerta - esquina"
+      "text": "puerta - esquina"
     },
     {
       "id": "d",
-      "answer": "flujo - disfrutar"
+      "text": "flujo - disfrutar"
     },
 
     {
       "id": "e",
-      "answer": "cena - mañana"
+      "text": "cena - mañana"
     }
   ],
   "correct_phrase": "<span>cenar</span> es a noche como desayuno es a <span>mañana</span>",
@@ -73,24 +73,24 @@ questions.set('3', {
   "alternatives": [
     {
       "id": "a",
-      "answer": "dos - medio"
+      "text": "dos - medio"
     },
     {
       "id": "b",
-      "answer": "primero - fuego"
+      "text": "primero - fuego"
     },
     {
       "id": "c",
-      "answer": "reina - colina"
+      "text": "reina - colina"
     },
     {
       "id": "d",
-      "answer": "primero - dos"
+      "text": "primero - dos"
     },
 
     {
       "id": "e",
-      "answer": "lluvia - fuego"
+      "text": "lluvia - fuego"
     }
   ],
   "correct_phrase": "<span>primero</span>  es a uno como segundo es a <span>dos</span>",

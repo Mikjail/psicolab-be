@@ -15,7 +15,7 @@ export class DB {
       port: 5432,
       database: 'psicolab',
       username: 'postgres',
-      password: ''
+      password: 'm64ever'
     });
   }
 
@@ -23,16 +23,6 @@ export class DB {
    * Initialise models
    */
   async initModels() {
-
-    this.client.link([ User ]);
-
-    await this.client.sync({ drop:  true });
-  
-    await User.create({ 
-      username: 'admin',
-      password:  await User.hashPassword('admin')
-    })
-
     await this.client.link([ Test, Question, Answer, User, Result]);
     
   }

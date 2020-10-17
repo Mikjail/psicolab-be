@@ -366,1750 +366,1750 @@ SELECT * FROM json_populate_recordset (NULL::answers,
       "test_id": 1,
       "question_id": 1,
       "sequence": 1,
-      "answer": "pan - verter",
+      "text": "pan - verter",
       "id": 1
   },
   {
       "test_id": 1,
       "question_id": 1,
       "sequence": 2,
-      "answer": "vaca - leche",
+      "text": "vaca - leche",
       "id": 2
   },
   {
       "test_id": 1,
       "question_id": 1,
       "sequence": 3,
-      "answer": "pan - leche",
+      "text": "pan - leche",
       "id": 3
   },
   {
       "test_id": 1,
       "question_id": 1,
       "sequence": 4,
-      "answer": "pan - caliente",
+      "text": "pan - caliente",
       "id": 4
   },
   {
       "test_id": 1,
       "question_id": 1,
       "sequence": 5,
-      "answer": "engordar - crema",
+      "text": "engordar - crema",
       "id": 5
   },
   {
       "test_id": 1,
       "question_id": 2,
       "sequence": 1,
-      "answer": "hombre - señora",
+      "text": "hombre - señora",
       "id": 6
   },
   {
       "test_id": 1,
       "question_id": 2,
       "sequence": 2,
-      "answer": "maligno - femenino",
+      "text": "maligno - femenino",
       "id": 7
   },
   {
       "test_id": 1,
       "question_id": 2,
       "sequence": 3,
-      "answer": "maligno - muchacha",
+      "text": "maligno - muchacha",
       "id": 8
   },
   {
       "test_id": 1,
       "question_id": 2,
       "sequence": 4,
-      "answer": "hombre - femenino",
+      "text": "hombre - femenino",
       "id": 9
   },
   {
       "test_id": 1,
       "question_id": 2,
       "sequence": 5,
-      "answer": "hombre - jovencita",
+      "text": "hombre - jovencita",
       "id": 10
   },
   {
       "test_id": 1,
       "question_id": 3,
       "sequence": 1,
-      "answer": "crin - automóvil",
+      "text": "crin - automóvil",
       "id": 11
   },
   {
       "test_id": 1,
       "question_id": 3,
       "sequence": 2,
-      "answer": "jinete - automóvil",
+      "text": "jinete - automóvil",
       "id": 12
   },
   {
       "test_id": 1,
       "question_id": 3,
       "sequence": 3,
-      "answer": "establo - automóvil",
+      "text": "establo - automóvil",
       "id": 13
   },
   {
       "test_id": 1,
       "question_id": 3,
       "sequence": 4,
-      "answer": "crin - volante",
+      "text": "crin - volante",
       "id": 14
   },
   {
       "test_id": 1,
       "question_id": 3,
       "sequence": 5,
-      "answer": "crin - uniforme",
+      "text": "crin - uniforme",
       "id": 15
   },
   {
       "test_id": 1,
       "question_id": 4,
       "sequence": 1,
-      "answer": "elefante - cuerno",
+      "text": "elefante - cuerno",
       "id": 16
   },
   {
       "test_id": 1,
       "question_id": 4,
       "sequence": 2,
-      "answer": "marfil - cuerno",
+      "text": "marfil - cuerno",
       "id": 17
   },
   {
       "test_id": 1,
       "question_id": 4,
       "sequence": 3,
-      "answer": "elefante - cornamenta",
+      "text": "elefante - cornamenta",
       "id": 18
   },
   {
       "test_id": 1,
       "question_id": 4,
       "sequence": 4,
-      "answer": "marfil - cornamenta",
+      "text": "marfil - cornamenta",
       "id": 19
   },
   {
       "test_id": 1,
       "question_id": 4,
       "sequence": 5,
-      "answer": "marfil - cazar",
+      "text": "marfil - cazar",
       "id": 20
   },
   {
       "test_id": 1,
       "question_id": 5,
       "sequence": 1,
-      "answer": "cáscara - árbol",
+      "text": "cáscara - árbol",
       "id": 21
   },
   {
       "test_id": 1,
       "question_id": 5,
       "sequence": 2,
-      "answer": "piel - uva",
+      "text": "piel - uva",
       "id": 22
   },
   {
       "test_id": 1,
       "question_id": 5,
       "sequence": 3,
-      "answer": "piel - árbol",
+      "text": "piel - árbol",
       "id": 23
   },
   {
       "test_id": 1,
       "question_id": 5,
       "sequence": 4,
-      "answer": "hombre - protección",
+      "text": "hombre - protección",
       "id": 24
   },
   {
       "test_id": 1,
       "question_id": 5,
       "sequence": 5,
-      "answer": "cáscara- uva",
+      "text": "cáscara- uva",
       "id": 25
   },
   {
       "test_id": 1,
       "question_id": 6,
       "sequence": 1,
-      "answer": "ventana - agua",
+      "text": "ventana - agua",
       "id": 26
   },
   {
       "test_id": 1,
       "question_id": 6,
       "sequence": 2,
-      "answer": "viento - pileta",
+      "text": "viento - pileta",
       "id": 27
   },
   {
       "test_id": 1,
       "question_id": 6,
       "sequence": 3,
-      "answer": "avión - pierna",
+      "text": "avión - pierna",
       "id": 28
   },
   {
       "test_id": 1,
       "question_id": 6,
       "sequence": 4,
-      "answer": "alas - pierna",
+      "text": "alas - pierna",
       "id": 29
   },
   {
       "test_id": 1,
       "question_id": 6,
       "sequence": 5,
-      "answer": "campo - casa",
+      "text": "campo - casa",
       "id": 30
   },
   {
       "test_id": 1,
       "question_id": 7,
       "sequence": 1,
-      "answer": "profesión - trabajo",
+      "text": "profesión - trabajo",
       "id": 31
   },
   {
       "test_id": 1,
       "question_id": 7,
       "sequence": 2,
-      "answer": "ligero - tardío",
+      "text": "ligero - tardío",
       "id": 32
   },
   {
       "test_id": 1,
       "question_id": 7,
       "sequence": 3,
-      "answer": "correr - tardío",
+      "text": "correr - tardío",
       "id": 33
   },
   {
       "test_id": 1,
       "question_id": 7,
       "sequence": 4,
-      "answer": "rápido - detención",
+      "text": "rápido - detención",
       "id": 34
   },
   {
       "test_id": 1,
       "question_id": 7,
       "sequence": 5,
-      "answer": "velocidad - paseo",
+      "text": "velocidad - paseo",
       "id": 35
   },
   {
       "test_id": 1,
       "question_id": 8,
       "sequence": 1,
-      "answer": "Terrier - vaca",
+      "text": "Terrier - vaca",
       "id": 36
   },
   {
       "test_id": 1,
       "question_id": 8,
       "sequence": 2,
-      "answer": "ladrar - vaca",
+      "text": "ladrar - vaca",
       "id": 37
   },
   {
       "test_id": 1,
       "question_id": 8,
       "sequence": 3,
-      "answer": "cola - vaca",
+      "text": "cola - vaca",
       "id": 38
   },
   {
       "test_id": 1,
       "question_id": 8,
       "sequence": 4,
-      "answer": "cola - Holandesa",
+      "text": "cola - Holandesa",
       "id": 39
   },
   {
       "test_id": 1,
       "question_id": 8,
       "sequence": 5,
-      "answer": "ladrar - Holandesa",
+      "text": "ladrar - Holandesa",
       "id": 40
   },
   {
       "test_id": 1,
       "question_id": 9,
       "sequence": 1,
-      "answer": "botella - tapa",
+      "text": "botella - tapa",
       "id": 41
   },
   {
       "test_id": 1,
       "question_id": 9,
       "sequence": 2,
-      "answer": "botella - cesto",
+      "text": "botella - cesto",
       "id": 42
   },
   {
       "test_id": 1,
       "question_id": 9,
       "sequence": 3,
-      "answer": "botella - sombrero",
+      "text": "botella - sombrero",
       "id": 43
   },
   {
       "test_id": 1,
       "question_id": 9,
       "sequence": 4,
-      "answer": "botella - fósforos",
+      "text": "botella - fósforos",
       "id": 44
   },
   {
       "test_id": 1,
       "question_id": 9,
       "sequence": 5,
-      "answer": "flotar - cesto",
+      "text": "flotar - cesto",
       "id": 45
   },
   {
       "test_id": 1,
       "question_id": 10,
       "sequence": 1,
-      "answer": "primero - hoja",
+      "text": "primero - hoja",
       "id": 46
   },
   {
       "test_id": 1,
       "question_id": 10,
       "sequence": 2,
-      "answer": "primero - luz",
+      "text": "primero - luz",
       "id": 47
   },
   {
       "test_id": 1,
       "question_id": 10,
       "sequence": 3,
-      "answer": "minuto - diario",
+      "text": "minuto - diario",
       "id": 48
   },
   {
       "test_id": 1,
       "question_id": 10,
       "sequence": 4,
-      "answer": "minuto - hora",
+      "text": "minuto - hora",
       "id": 49
   },
   {
       "test_id": 1,
       "question_id": 10,
       "sequence": 5,
-      "answer": "reloj - diana",
+      "text": "reloj - diana",
       "id": 50
   },
   {
       "test_id": 1,
       "question_id": 11,
       "sequence": 1,
-      "answer": "suelo - mar",
+      "text": "suelo - mar",
       "id": 51
   },
   {
       "test_id": 1,
       "question_id": 11,
       "sequence": 2,
-      "answer": "ejército - aire",
+      "text": "ejército - aire",
       "id": 52
   },
   {
       "test_id": 1,
       "question_id": 11,
       "sequence": 3,
-      "answer": "atracar - mar",
+      "text": "atracar - mar",
       "id": 53
   },
   {
       "test_id": 1,
       "question_id": 11,
       "sequence": 4,
-      "answer": "ejército - mar",
+      "text": "ejército - mar",
       "id": 54
   },
   {
       "test_id": 1,
       "question_id": 11,
       "sequence": 5,
-      "answer": "barco - mar",
+      "text": "barco - mar",
       "id": 55
   },
   {
       "test_id": 1,
       "question_id": 12,
       "sequence": 1,
-      "answer": "turbo - casa",
+      "text": "turbo - casa",
       "id": 56
   },
   {
       "test_id": 1,
       "question_id": 12,
       "sequence": 2,
-      "answer": "turbo - depósito",
+      "text": "turbo - depósito",
       "id": 57
   },
   {
       "test_id": 1,
       "question_id": 12,
       "sequence": 3,
-      "answer": "hangar - automóvil",
+      "text": "hangar - automóvil",
       "id": 58
   },
   {
       "test_id": 1,
       "question_id": 12,
       "sequence": 4,
-      "answer": "ala - automóvil",
+      "text": "ala - automóvil",
       "id": 59
   },
   {
       "test_id": 1,
       "question_id": 12,
       "sequence": 5,
-      "answer": "ala - depósito",
+      "text": "ala - depósito",
       "id": 60
   },
   {
       "test_id": 1,
       "question_id": 13,
       "sequence": 1,
-      "answer": "novillo - chiquero",
+      "text": "novillo - chiquero",
       "id": 61
   },
   {
       "test_id": 1,
       "question_id": 13,
       "sequence": 2,
-      "answer": "vaca - jamón",
+      "text": "vaca - jamón",
       "id": 62
   },
   {
       "test_id": 1,
       "question_id": 13,
       "sequence": 3,
-      "answer": "toro - lechón",
+      "text": "toro - lechón",
       "id": 63
   },
   {
       "test_id": 1,
       "question_id": 13,
       "sequence": 4,
-      "answer": "costilla - fiambre",
+      "text": "costilla - fiambre",
       "id": 64
   },
   {
       "test_id": 1,
       "question_id": 13,
       "sequence": 5,
-      "answer": "vaca - chiquero",
+      "text": "vaca - chiquero",
       "id": 65
   },
   {
       "test_id": 1,
       "question_id": 14,
       "sequence": 1,
-      "answer": "retroceder - contenerse",
+      "text": "retroceder - contenerse",
       "id": 66
   },
   {
       "test_id": 1,
       "question_id": 14,
       "sequence": 2,
-      "answer": "intervenir - contenerse",
+      "text": "intervenir - contenerse",
       "id": 67
   },
   {
       "test_id": 1,
       "question_id": 14,
       "sequence": 3,
-      "answer": "estacionarse - avanzar",
+      "text": "estacionarse - avanzar",
       "id": 68
   },
   {
       "test_id": 1,
       "question_id": 14,
       "sequence": 4,
-      "answer": "conseguir - avanzar",
+      "text": "conseguir - avanzar",
       "id": 69
   },
   {
       "test_id": 1,
       "question_id": 14,
       "sequence": 5,
-      "answer": "intervenir - avanzar",
+      "text": "intervenir - avanzar",
       "id": 70
   },
   {
       "test_id": 1,
       "question_id": 15,
       "sequence": 1,
-      "answer": "aceptar - unir",
+      "text": "aceptar - unir",
       "id": 71
   },
   {
       "test_id": 1,
       "question_id": 15,
       "sequence": 2,
-      "answer": "calcular - discriminar",
+      "text": "calcular - discriminar",
       "id": 72
   },
   {
       "test_id": 1,
       "question_id": 15,
       "sequence": 3,
-      "answer": "celebrar - generar",
+      "text": "celebrar - generar",
       "id": 73
   },
   {
       "test_id": 1,
       "question_id": 15,
       "sequence": 4,
-      "answer": "internalizar - operar",
+      "text": "internalizar - operar",
       "id": 74
   },
   {
       "test_id": 1,
       "question_id": 15,
       "sequence": 5,
-      "answer": "mezclar - segregar",
+      "text": "mezclar - segregar",
       "id": 75
   },
   {
       "test_id": 1,
       "question_id": 16,
       "sequence": 1,
-      "answer": "dedo - cabeza",
+      "text": "dedo - cabeza",
       "id": 76
   },
   {
       "test_id": 1,
       "question_id": 16,
       "sequence": 2,
-      "answer": "tobillo - cabeza",
+      "text": "tobillo - cabeza",
       "id": 77
   },
   {
       "test_id": 1,
       "question_id": 16,
       "sequence": 3,
-      "answer": "zapato - ala",
+      "text": "zapato - ala",
       "id": 78
   },
   {
       "test_id": 1,
       "question_id": 16,
       "sequence": 4,
-      "answer": "zapato - cabeza",
+      "text": "zapato - cabeza",
       "id": 79
   },
   {
       "test_id": 1,
       "question_id": 16,
       "sequence": 5,
-      "answer": "dedo - ala",
+      "text": "dedo - ala",
       "id": 80
   },
   {
       "test_id": 1,
       "question_id": 17,
       "sequence": 1,
-      "answer": "mínimo - mejor",
+      "text": "mínimo - mejor",
       "id": 81
   },
   {
       "test_id": 1,
       "question_id": 17,
       "sequence": 2,
-      "answer": "mucho - mejor",
+      "text": "mucho - mejor",
       "id": 82
   },
   {
       "test_id": 1,
       "question_id": 17,
       "sequence": 3,
-      "answer": "mucho - malo",
+      "text": "mucho - malo",
       "id": 83
   },
   {
       "test_id": 1,
       "question_id": 17,
       "sequence": 4,
-      "answer": "más - pésimo",
+      "text": "más - pésimo",
       "id": 84
   },
   {
       "test_id": 1,
       "question_id": 17,
       "sequence": 5,
-      "answer": "abundante - pésimo",
+      "text": "abundante - pésimo",
       "id": 85
   },
   {
       "test_id": 1,
       "question_id": 18,
       "sequence": 1,
-      "answer": "poeta - artista",
+      "text": "poeta - artista",
       "id": 86
   },
   {
       "test_id": 1,
       "question_id": 18,
       "sequence": 2,
-      "answer": "poeta - estatua",
+      "text": "poeta - estatua",
       "id": 87
   },
   {
       "test_id": 1,
       "question_id": 18,
       "sequence": 3,
-      "answer": "músico - estatua",
+      "text": "músico - estatua",
       "id": 88
   },
   {
       "test_id": 1,
       "question_id": 18,
       "sequence": 4,
-      "answer": "reverso - estatua",
+      "text": "reverso - estatua",
       "id": 89
   },
   {
       "test_id": 1,
       "question_id": 18,
       "sequence": 5,
-      "answer": "reverso - artista",
+      "text": "reverso - artista",
       "id": 90
   },
   {
       "test_id": 1,
       "question_id": 19,
       "sequence": 1,
-      "answer": "almeja - gema",
+      "text": "almeja - gema",
       "id": 91
   },
   {
       "test_id": 1,
       "question_id": 19,
       "sequence": 2,
-      "answer": "sopa - gema",
+      "text": "sopa - gema",
       "id": 92
   },
   {
       "test_id": 1,
       "question_id": 19,
       "sequence": 3,
-      "answer": "perla - mina",
+      "text": "perla - mina",
       "id": 93
   },
   {
       "test_id": 1,
       "question_id": 19,
       "sequence": 4,
-      "answer": "almeja - mina",
+      "text": "almeja - mina",
       "id": 94
   },
   {
       "test_id": 1,
       "question_id": 19,
       "sequence": 5,
-      "answer": "concha - perla",
+      "text": "concha - perla",
       "id": 95
   },
   {
       "test_id": 1,
       "question_id": 20,
       "sequence": 1,
-      "answer": "libra - Rusia",
+      "text": "libra - Rusia",
       "id": 96
   },
   {
       "test_id": 1,
       "question_id": 20,
       "sequence": 2,
-      "answer": "Londes - dinero",
+      "text": "Londes - dinero",
       "id": 97
   },
   {
       "test_id": 1,
       "question_id": 20,
       "sequence": 3,
-      "answer": "Londres - México",
+      "text": "Londres - México",
       "id": 98
   },
   {
       "test_id": 1,
       "question_id": 20,
       "sequence": 4,
-      "answer": "Londres - mandolina",
+      "text": "Londres - mandolina",
       "id": 99
   },
   {
       "test_id": 1,
       "question_id": 20,
       "sequence": 5,
-      "answer": "Londres - Rusia",
+      "text": "Londres - Rusia",
       "id": 100
   },
   {
       "test_id": 1,
       "question_id": 21,
       "sequence": 1,
-      "answer": "alambrado - techo",
+      "text": "alambrado - techo",
       "id": 101
   },
   {
       "test_id": 1,
       "question_id": 21,
       "sequence": 2,
-      "answer": "alambrado - ladrillo",
+      "text": "alambrado - ladrillo",
       "id": 102
   },
   {
       "test_id": 1,
       "question_id": 21,
       "sequence": 3,
-      "answer": "cerco - habitación",
+      "text": "cerco - habitación",
       "id": 103
   },
   {
       "test_id": 1,
       "question_id": 21,
       "sequence": 4,
-      "answer": "cerco - corniza",
+      "text": "cerco - corniza",
       "id": 104
   },
   {
       "test_id": 1,
       "question_id": 21,
       "sequence": 5,
-      "answer": "jugar - decorar",
+      "text": "jugar - decorar",
       "id": 105
   },
   {
       "test_id": 1,
       "question_id": 22,
       "sequence": 1,
-      "answer": "cera - vegetal",
+      "text": "cera - vegetal",
       "id": 106
   },
   {
       "test_id": 1,
       "question_id": 22,
       "sequence": 2,
-      "answer": "cera - palo",
+      "text": "cera - palo",
       "id": 107
   },
   {
       "test_id": 1,
       "question_id": 22,
       "sequence": 3,
-      "answer": "viento - bote",
+      "text": "viento - bote",
       "id": 108
   },
   {
       "test_id": 1,
       "question_id": 22,
       "sequence": 4,
-      "answer": "dormir - papel",
+      "text": "dormir - papel",
       "id": 109
   },
   {
       "test_id": 1,
       "question_id": 22,
       "sequence": 5,
-      "answer": "bote - vegetal",
+      "text": "bote - vegetal",
       "id": 110
   },
   {
       "test_id": 1,
       "question_id": 23,
       "sequence": 1,
-      "answer": "primero - séptimo",
+      "text": "primero - séptimo",
       "id": 111
   },
   {
       "test_id": 1,
       "question_id": 23,
       "sequence": 2,
-      "answer": "primero - décimo",
+      "text": "primero - décimo",
       "id": 112
   },
   {
       "test_id": 1,
       "question_id": 23,
       "sequence": 3,
-      "answer": "segundo - cuarto",
+      "text": "segundo - cuarto",
       "id": 113
   },
   {
       "test_id": 1,
       "question_id": 23,
       "sequence": 4,
-      "answer": "triple - cinco",
+      "text": "triple - cinco",
       "id": 114
   },
   {
       "test_id": 1,
       "question_id": 23,
       "sequence": 5,
-      "answer": "cuarta - sexta",
+      "text": "cuarta - sexta",
       "id": 115
   },
   {
       "test_id": 1,
       "question_id": 24,
       "sequence": 1,
-      "answer": "caballo - caminar",
+      "text": "caballo - caminar",
       "id": 116
   },
   {
       "test_id": 1,
       "question_id": 24,
       "sequence": 2,
-      "answer": "caballo - infantería",
+      "text": "caballo - infantería",
       "id": 117
   },
   {
       "test_id": 1,
       "question_id": 24,
       "sequence": 3,
-      "answer": "establo - yarda",
+      "text": "establo - yarda",
       "id": 118
   },
   {
       "test_id": 1,
       "question_id": 24,
       "sequence": 4,
-      "answer": "estribo - infantería",
+      "text": "estribo - infantería",
       "id": 119
   },
   {
       "test_id": 1,
       "question_id": 24,
       "sequence": 5,
-      "answer": "caballo - escudo",
+      "text": "caballo - escudo",
       "id": 120
   },
   {
       "test_id": 1,
       "question_id": 25,
       "sequence": 1,
-      "answer": "saludo - madera",
+      "text": "saludo - madera",
       "id": 121
   },
   {
       "test_id": 1,
       "question_id": 25,
       "sequence": 2,
-      "answer": "saludo - alambrado",
+      "text": "saludo - alambrado",
       "id": 122
   },
   {
       "test_id": 1,
       "question_id": 25,
       "sequence": 3,
-      "answer": "franjas - alambrado",
+      "text": "franjas - alambrado",
       "id": 123
   },
   {
       "test_id": 1,
       "question_id": 25,
       "sequence": 4,
-      "answer": "franjas - luz",
+      "text": "franjas - luz",
       "id": 124
   },
   {
       "test_id": 1,
       "question_id": 25,
       "sequence": 5,
-      "answer": "mástil - farol",
+      "text": "mástil - farol",
       "id": 125
   },
   {
       "test_id": 1,
       "question_id": 26,
       "sequence": 1,
-      "answer": "tornillo - anillo",
+      "text": "tornillo - anillo",
       "id": 126
   },
   {
       "test_id": 1,
       "question_id": 26,
       "sequence": 2,
-      "answer": "hierro - anillo",
+      "text": "hierro - anillo",
       "id": 127
   },
   {
       "test_id": 1,
       "question_id": 26,
       "sequence": 3,
-      "answer": "metal - guante",
+      "text": "metal - guante",
       "id": 128
   },
   {
       "test_id": 1,
       "question_id": 26,
       "sequence": 4,
-      "answer": "ajustar - piel",
+      "text": "ajustar - piel",
       "id": 129
   },
   {
       "test_id": 1,
       "question_id": 26,
       "sequence": 5,
-      "answer": "tornillo - señalar",
+      "text": "tornillo - señalar",
       "id": 130
   },
   {
       "test_id": 1,
       "question_id": 27,
       "sequence": 1,
-      "answer": "carnada - disparo",
+      "text": "carnada - disparo",
       "id": 131
   },
   {
       "test_id": 1,
       "question_id": 27,
       "sequence": 2,
-      "answer": "bacalao - gatillo",
+      "text": "bacalao - gatillo",
       "id": 132
   },
   {
       "test_id": 1,
       "question_id": 27,
       "sequence": 3,
-      "answer": "pescado - disparar",
+      "text": "pescado - disparar",
       "id": 133
   },
   {
       "test_id": 1,
       "question_id": 27,
       "sequence": 4,
-      "answer": "bacalao - bala",
+      "text": "bacalao - bala",
       "id": 134
   },
   {
       "test_id": 1,
       "question_id": 27,
       "sequence": 5,
-      "answer": "caña - caza",
+      "text": "caña - caza",
       "id": 135
   },
   {
       "test_id": 1,
       "question_id": 28,
       "sequence": 1,
-      "answer": "hospital - oficina",
+      "text": "hospital - oficina",
       "id": 136
   },
   {
       "test_id": 1,
       "question_id": 28,
       "sequence": 2,
-      "answer": "enfermero - ejecutivo",
+      "text": "enfermero - ejecutivo",
       "id": 137
   },
   {
       "test_id": 1,
       "question_id": 28,
       "sequence": 3,
-      "answer": "curación - dactilógrafa",
+      "text": "curación - dactilógrafa",
       "id": 138
   },
   {
       "test_id": 1,
       "question_id": 28,
       "sequence": 4,
-      "answer": "medicina - oficina",
+      "text": "medicina - oficina",
       "id": 139
   },
   {
       "test_id": 1,
       "question_id": 28,
       "sequence": 5,
-      "answer": "medicina - ejecutivo",
+      "text": "medicina - ejecutivo",
       "id": 140
   },
   {
       "test_id": 1,
       "question_id": 29,
       "sequence": 1,
-      "answer": "conducta - corrección",
+      "text": "conducta - corrección",
       "id": 141
   },
   {
       "test_id": 1,
       "question_id": 29,
       "sequence": 2,
-      "answer": "obligación - tribunales",
+      "text": "obligación - tribunales",
       "id": 142
   },
   {
       "test_id": 1,
       "question_id": 29,
       "sequence": 3,
-      "answer": "trabajo - beneficio",
+      "text": "trabajo - beneficio",
       "id": 143
   },
   {
       "test_id": 1,
       "question_id": 29,
       "sequence": 4,
-      "answer": "impuesto - poder",
+      "text": "impuesto - poder",
       "id": 144
   },
   {
       "test_id": 1,
       "question_id": 29,
       "sequence": 5,
-      "answer": "obligación - facultad",
+      "text": "obligación - facultad",
       "id": 145
   },
   {
       "test_id": 1,
       "question_id": 30,
       "sequence": 1,
-      "answer": "cajón - diario",
+      "text": "cajón - diario",
       "id": 146
   },
   {
       "test_id": 1,
       "question_id": 30,
       "sequence": 2,
-      "answer": "papel - diario",
+      "text": "papel - diario",
       "id": 147
   },
   {
       "test_id": 1,
       "question_id": 30,
       "sequence": 3,
-      "answer": "papel - publicidad",
+      "text": "papel - publicidad",
       "id": 148
   },
   {
       "test_id": 1,
       "question_id": 30,
       "sequence": 4,
-      "answer": "carta - estante",
+      "text": "carta - estante",
       "id": 149
   },
   {
       "test_id": 1,
       "question_id": 30,
       "sequence": 5,
-      "answer": "carta - nota",
+      "text": "carta - nota",
       "id": 150
   },
   {
       "test_id": 1,
       "question_id": 31,
       "sequence": 1,
-      "answer": "selva - casa",
+      "text": "selva - casa",
       "id": 151
   },
   {
       "test_id": 1,
       "question_id": 31,
       "sequence": 2,
-      "answer": "gato - ladrido",
+      "text": "gato - ladrido",
       "id": 152
   },
   {
       "test_id": 1,
       "question_id": 31,
       "sequence": 3,
-      "answer": "gato - lobo",
+      "text": "gato - lobo",
       "id": 153
   },
   {
       "test_id": 1,
       "question_id": 31,
       "sequence": 4,
-      "answer": "selva - jardín",
+      "text": "selva - jardín",
       "id": 154
   },
   {
       "test_id": 1,
       "question_id": 31,
       "sequence": 5,
-      "answer": "presa - ladrido",
+      "text": "presa - ladrido",
       "id": 155
   },
   {
       "test_id": 1,
       "question_id": 32,
       "sequence": 1,
-      "answer": "tía - primo",
+      "text": "tía - primo",
       "id": 156
   },
   {
       "test_id": 1,
       "question_id": 32,
       "sequence": 2,
-      "answer": "primo - hijo",
+      "text": "primo - hijo",
       "id": 157
   },
   {
       "test_id": 1,
       "question_id": 32,
       "sequence": 3,
-      "answer": "niña - tía",
+      "text": "niña - tía",
       "id": 158
   },
   {
       "test_id": 1,
       "question_id": 32,
       "sequence": 4,
-      "answer": "padre - hijo",
+      "text": "padre - hijo",
       "id": 159
   },
   {
       "test_id": 1,
       "question_id": 32,
       "sequence": 5,
-      "answer": "sobrino - niña",
+      "text": "sobrino - niña",
       "id": 160
   },
   {
       "test_id": 1,
       "question_id": 33,
       "sequence": 1,
-      "answer": "amansar - salvaje",
+      "text": "amansar - salvaje",
       "id": 161
   },
   {
       "test_id": 1,
       "question_id": 33,
       "sequence": 2,
-      "answer": "amansar - caza",
+      "text": "amansar - caza",
       "id": 162
   },
   {
       "test_id": 1,
       "question_id": 33,
       "sequence": 3,
-      "answer": "moderado - salvaje",
+      "text": "moderado - salvaje",
       "id": 163
   },
   {
       "test_id": 1,
       "question_id": 33,
       "sequence": 4,
-      "answer": "hogar - tigre",
+      "text": "hogar - tigre",
       "id": 164
   },
   {
       "test_id": 1,
       "question_id": 33,
       "sequence": 5,
-      "answer": "perro - salvaje",
+      "text": "perro - salvaje",
       "id": 165
   },
   {
       "test_id": 1,
       "question_id": 34,
       "sequence": 1,
-      "answer": "fallar - fracasar",
+      "text": "fallar - fracasar",
       "id": 166
   },
   {
       "test_id": 1,
       "question_id": 34,
       "sequence": 2,
-      "answer": "ganar - fracasar",
+      "text": "ganar - fracasar",
       "id": 167
   },
   {
       "test_id": 1,
       "question_id": 34,
       "sequence": 3,
-      "answer": "ganar - adelantar",
+      "text": "ganar - adelantar",
       "id": 168
   },
   {
       "test_id": 1,
       "question_id": 34,
       "sequence": 4,
-      "answer": "lograr - aprobar",
+      "text": "lograr - aprobar",
       "id": 169
   },
   {
       "test_id": 1,
       "question_id": 34,
       "sequence": 5,
-      "answer": "ganar - aprobar",
+      "text": "ganar - aprobar",
       "id": 170
   },
   {
       "test_id": 1,
       "question_id": 35,
       "sequence": 1,
-      "answer": "proa - navegación",
+      "text": "proa - navegación",
       "id": 171
   },
   {
       "test_id": 1,
       "question_id": 35,
       "sequence": 2,
-      "answer": "proa - atracar",
+      "text": "proa - atracar",
       "id": 172
   },
   {
       "test_id": 1,
       "question_id": 35,
       "sequence": 3,
-      "answer": "bandera - embarque",
+      "text": "bandera - embarque",
       "id": 173
   },
   {
       "test_id": 1,
       "question_id": 35,
       "sequence": 4,
-      "answer": "casco - embarque",
+      "text": "casco - embarque",
       "id": 174
   },
   {
       "test_id": 1,
       "question_id": 35,
       "sequence": 5,
-      "answer": "proa - estribor",
+      "text": "proa - estribor",
       "id": 175
   },
   {
       "test_id": 1,
       "question_id": 36,
       "sequence": 1,
-      "answer": "vía - puente",
+      "text": "vía - puente",
       "id": 176
   },
   {
       "test_id": 1,
       "question_id": 36,
       "sequence": 2,
-      "answer": "pasaje - puente",
+      "text": "pasaje - puente",
       "id": 177
   },
   {
       "test_id": 1,
       "question_id": 36,
       "sequence": 3,
-      "answer": "motor - puente",
+      "text": "motor - puente",
       "id": 178
   },
   {
       "test_id": 1,
       "question_id": 36,
       "sequence": 4,
-      "answer": "motor - viajar",
+      "text": "motor - viajar",
       "id": 179
   },
   {
       "test_id": 1,
       "question_id": 36,
       "sequence": 5,
-      "answer": "pasajero - puente",
+      "text": "pasajero - puente",
       "id": 180
   },
   {
       "test_id": 1,
       "question_id": 37,
       "sequence": 1,
-      "answer": "sincero - responsable",
+      "text": "sincero - responsable",
       "id": 181
   },
   {
       "test_id": 1,
       "question_id": 37,
       "sequence": 2,
-      "answer": "locuaz - serio",
+      "text": "locuaz - serio",
       "id": 182
   },
   {
       "test_id": 1,
       "question_id": 37,
       "sequence": 3,
-      "answer": "libre - jugador",
+      "text": "libre - jugador",
       "id": 183
   },
   {
       "test_id": 1,
       "question_id": 37,
       "sequence": 4,
-      "answer": "dinero - pagador",
+      "text": "dinero - pagador",
       "id": 184
   },
   {
       "test_id": 1,
       "question_id": 37,
       "sequence": 5,
-      "answer": "dinero - puntual",
+      "text": "dinero - puntual",
       "id": 185
   },
   {
       "test_id": 1,
       "question_id": 38,
       "sequence": 1,
-      "answer": "privar - obtener",
+      "text": "privar - obtener",
       "id": 186
   },
   {
       "test_id": 1,
       "question_id": 38,
       "sequence": 2,
-      "answer": "vedar - denegar",
+      "text": "vedar - denegar",
       "id": 187
   },
   {
       "test_id": 1,
       "question_id": 38,
       "sequence": 3,
-      "answer": "permitir - rectificar",
+      "text": "permitir - rectificar",
       "id": 188
   },
   {
       "test_id": 1,
       "question_id": 38,
       "sequence": 4,
-      "answer": "permitir - asentir",
+      "text": "permitir - asentir",
       "id": 189
   },
   {
       "test_id": 1,
       "question_id": 38,
       "sequence": 5,
-      "answer": "excluir - comunión",
+      "text": "excluir - comunión",
       "id": 190
   },
   {
       "test_id": 1,
       "question_id": 39,
       "sequence": 1,
-      "answer": "alto - casi",
+      "text": "alto - casi",
       "id": 191
   },
   {
       "test_id": 1,
       "question_id": 39,
       "sequence": 2,
-      "answer": "alto - próximo",
+      "text": "alto - próximo",
       "id": 192
   },
   {
       "test_id": 1,
       "question_id": 39,
       "sequence": 3,
-      "answer": "debajo - próximo",
+      "text": "debajo - próximo",
       "id": 193
   },
   {
       "test_id": 1,
       "question_id": 39,
       "sequence": 4,
-      "answer": "debajo - distante",
+      "text": "debajo - distante",
       "id": 194
   },
   {
       "test_id": 1,
       "question_id": 39,
       "sequence": 5,
-      "answer": "arriba - distante",
+      "text": "arriba - distante",
       "id": 195
   },
   {
       "test_id": 1,
       "question_id": 40,
       "sequence": 1,
-      "answer": "juzgar - perdonar",
+      "text": "juzgar - perdonar",
       "id": 196
   },
   {
       "test_id": 1,
       "question_id": 40,
       "sequence": 2,
-      "answer": "encarcelar - memorizar",
+      "text": "encarcelar - memorizar",
       "id": 197
   },
   {
       "test_id": 1,
       "question_id": 40,
       "sequence": 3,
-      "answer": "juzgar - perder",
+      "text": "juzgar - perder",
       "id": 198
   },
   {
       "test_id": 1,
       "question_id": 40,
       "sequence": 4,
-      "answer": "azotar - recordar",
+      "text": "azotar - recordar",
       "id": 199
   },
   {
       "test_id": 1,
       "question_id": 40,
       "sequence": 5,
-      "answer": "indultar - recordar",
+      "text": "indultar - recordar",
       "id": 200
   },
   {
       "test_id": 1,
       "question_id": 41,
       "sequence": 1,
-      "answer": "barco - botón",
+      "text": "barco - botón",
       "id": 201
   },
   {
       "test_id": 1,
       "question_id": 41,
       "sequence": 2,
-      "answer": "cubierta - ladrón",
+      "text": "cubierta - ladrón",
       "id": 202
   },
   {
       "test_id": 1,
       "question_id": 41,
       "sequence": 3,
-      "answer": "marinero - ladrón",
+      "text": "marinero - ladrón",
       "id": 203
   },
   {
       "test_id": 1,
       "question_id": 41,
       "sequence": 4,
-      "answer": "marinero - banda",
+      "text": "marinero - banda",
       "id": 204
   },
   {
       "test_id": 1,
       "question_id": 41,
       "sequence": 5,
-      "answer": "viaje - robo",
+      "text": "viaje - robo",
       "id": 205
   },
   {
       "test_id": 1,
       "question_id": 42,
       "sequence": 1,
-      "answer": "calentar - reparar",
+      "text": "calentar - reparar",
       "id": 206
   },
   {
       "test_id": 1,
       "question_id": 42,
       "sequence": 2,
-      "answer": "denegar - suturar",
+      "text": "denegar - suturar",
       "id": 207
   },
   {
       "test_id": 1,
       "question_id": 42,
       "sequence": 3,
-      "answer": "reemplazar - destituir",
+      "text": "reemplazar - destituir",
       "id": 208
   },
   {
       "test_id": 1,
       "question_id": 42,
       "sequence": 4,
-      "answer": "unir - segregar",
+      "text": "unir - segregar",
       "id": 209
   },
   {
       "test_id": 1,
       "question_id": 42,
       "sequence": 5,
-      "answer": "confundir - dislocar",
+      "text": "confundir - dislocar",
       "id": 210
   },
   {
       "test_id": 1,
       "question_id": 43,
       "sequence": 1,
-      "answer": "intendente - gobierno",
+      "text": "intendente - gobierno",
       "id": 211
   },
   {
       "test_id": 1,
       "question_id": 43,
       "sequence": 2,
-      "answer": "municipal - país",
+      "text": "municipal - país",
       "id": 212
   },
   {
       "test_id": 1,
       "question_id": 43,
       "sequence": 3,
-      "answer": "Córdoba - gobierno",
+      "text": "Córdoba - gobierno",
       "id": 213
   },
   {
       "test_id": 1,
       "question_id": 43,
       "sequence": 4,
-      "answer": "intendente - país",
+      "text": "intendente - país",
       "id": 214
   },
   {
       "test_id": 1,
       "question_id": 43,
       "sequence": 5,
-      "answer": "Córdoba - internacional",
+      "text": "Córdoba - internacional",
       "id": 215
   },
   {
       "test_id": 1,
       "question_id": 44,
       "sequence": 1,
-      "answer": "toro - oveja",
+      "text": "toro - oveja",
       "id": 216
   },
   {
       "test_id": 1,
       "question_id": 44,
       "sequence": 2,
-      "answer": "venado - corza",
+      "text": "venado - corza",
       "id": 217
   },
   {
       "test_id": 1,
       "question_id": 44,
       "sequence": 3,
-      "answer": "antílope - venado",
+      "text": "antílope - venado",
       "id": 218
   },
   {
       "test_id": 1,
       "question_id": 44,
       "sequence": 4,
-      "answer": "rana - tero",
+      "text": "rana - tero",
       "id": 219
   },
   {
       "test_id": 1,
       "question_id": 44,
       "sequence": 5,
-      "answer": "venado - jabalí",
+      "text": "venado - jabalí",
       "id": 220
   },
   {
       "test_id": 1,
       "question_id": 45,
       "sequence": 1,
-      "answer": "animal - hacer",
+      "text": "animal - hacer",
       "id": 221
   },
   {
       "test_id": 1,
       "question_id": 45,
       "sequence": 2,
-      "answer": "vivo - objeto",
+      "text": "vivo - objeto",
       "id": 222
   },
   {
       "test_id": 1,
       "question_id": 45,
       "sequence": 3,
-      "answer": "nuevo - viejo",
+      "text": "nuevo - viejo",
       "id": 223
   },
   {
       "test_id": 1,
       "question_id": 45,
       "sequence": 4,
-      "answer": "morir - sepultura",
+      "text": "morir - sepultura",
       "id": 224
   },
   {
       "test_id": 1,
       "question_id": 45,
       "sequence": 5,
-      "answer": "bebé - juguete",
+      "text": "bebé - juguete",
       "id": 225
   },
   {
       "test_id": 1,
       "question_id": 46,
       "sequence": 1,
-      "answer": "hectárea - cuerda",
+      "text": "hectárea - cuerda",
       "id": 226
   },
   {
       "test_id": 1,
       "question_id": 46,
       "sequence": 2,
-      "answer": "km/hora - mar",
+      "text": "km/hora - mar",
       "id": 227
   },
   {
       "test_id": 1,
       "question_id": 46,
       "sequence": 3,
-      "answer": "desierto - cuerda",
+      "text": "desierto - cuerda",
       "id": 228
   },
   {
       "test_id": 1,
       "question_id": 46,
       "sequence": 4,
-      "answer": "km/hora - metro",
+      "text": "km/hora - metro",
       "id": 229
   },
   {
       "test_id": 1,
       "question_id": 46,
       "sequence": 5,
-      "answer": "granja - cuerda",
+      "text": "granja - cuerda",
       "id": 230
   },
   {
       "test_id": 1,
       "question_id": 47,
       "sequence": 1,
-      "answer": "mosca - tijera",
+      "text": "mosca - tijera",
       "id": 231
   },
   {
       "test_id": 1,
       "question_id": 47,
       "sequence": 2,
-      "answer": "mosca - perro",
+      "text": "mosca - perro",
       "id": 232
   },
   {
       "test_id": 1,
       "question_id": 47,
       "sequence": 3,
-      "answer": "mosca - descascarar",
+      "text": "mosca - descascarar",
       "id": 233
   },
   {
       "test_id": 1,
       "question_id": 47,
       "sequence": 4,
-      "answer": "desplumar - perro",
+      "text": "desplumar - perro",
       "id": 234
   },
   {
       "test_id": 1,
       "question_id": 47,
       "sequence": 5,
-      "answer": "migrar - esquilar",
+      "text": "migrar - esquilar",
       "id": 235
   },
   {
       "test_id": 1,
       "question_id": 48,
       "sequence": 1,
-      "answer": "escritor - espectador",
+      "text": "escritor - espectador",
       "id": 236
   },
   {
       "test_id": 1,
       "question_id": 48,
       "sequence": 2,
-      "answer": "escritor - obra",
+      "text": "escritor - obra",
       "id": 237
   },
   {
       "test_id": 1,
       "question_id": 48,
       "sequence": 3,
-      "answer": "manual - obra",
+      "text": "manual - obra",
       "id": 238
   },
   {
       "test_id": 1,
       "question_id": 48,
       "sequence": 4,
-      "answer": "escritor - actor",
+      "text": "escritor - actor",
       "id": 239
   },
   {
       "test_id": 1,
       "question_id": 48,
       "sequence": 5,
-      "answer": "libro  - actor",
+      "text": "libro  - actor",
       "id": 240
   },
   {
       "test_id": 1,
       "question_id": 49,
       "sequence": 1,
-      "answer": "guardián - cita",
+      "text": "guardián - cita",
       "id": 241
   },
   {
       "test_id": 1,
       "question_id": 49,
       "sequence": 2,
-      "answer": "guardián - museo",
+      "text": "guardián - museo",
       "id": 242
   },
   {
       "test_id": 1,
       "question_id": 49,
       "sequence": 3,
-      "answer": "guardián - Francia",
+      "text": "guardián - Francia",
       "id": 243
   },
   {
       "test_id": 1,
       "question_id": 49,
       "sequence": 4,
-      "answer": "Bastilla - museo",
+      "text": "Bastilla - museo",
       "id": 244
   },
   {
       "test_id": 1,
       "question_id": 49,
       "sequence": 5,
-      "answer": "crimen - artista",
+      "text": "crimen - artista",
       "id": 245
   },
   {
       "test_id": 1,
       "question_id": 50,
       "sequence": 1,
-      "answer": "línea - retrato",
+      "text": "línea - retrato",
       "id": 246
   },
   {
       "test_id": 1,
       "question_id": 50,
       "sequence": 2,
-      "answer": "esbozo - cerda",
+      "text": "esbozo - cerda",
       "id": 247
   },
   {
       "test_id": 1,
       "question_id": 50,
       "sequence": 3,
-      "answer": "trazo - pintura",
+      "text": "trazo - pintura",
       "id": 248
   },
   {
       "test_id": 1,
       "question_id": 50,
       "sequence": 4,
-      "answer": "mano - ojos",
+      "text": "mano - ojos",
       "id": 249
   },
   {
       "test_id": 1,
       "question_id": 50,
       "sequence": 5,
-      "answer": "lápiz - pintura",
+      "text": "lápiz - pintura",
       "id": 250
   }
 ]');
