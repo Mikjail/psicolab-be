@@ -17,7 +17,8 @@
 
 ## Test Results
 - [x] api/results/save Set answer result.
-- [x] api/results Get result from specific test 
+- [x] api/results?testId=${testId} Get results from specific test 
+
 
 
 GETTING STARTED
@@ -46,4 +47,14 @@ cat ./query-2.sql | docker exec -i psicolab-db psql -U postgres -d psicolab
 
 1. Install denon
 
-2. denon startx
+2. start denon
+
+```
+denon start
+```
+
+In case you want to use a debug break (`--inspect-brk`) remember to change deno.json config to:
+
+```
+"cmd": "deno run --allow-net --allow-read --allow-write --unstable --allow-plugin --allow-env --inspect-brk -c tsconfig.json ./server.ts",
+```

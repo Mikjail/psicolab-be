@@ -5,7 +5,7 @@
   },
   "scripts": {
     "start": {
-      "cmd": "deno run --allow-net --allow-read --allow-write --unstable --allow-plugin --allow-env --inspect-brk -c tsconfig.json ./server.ts",
+      "cmd": "deno run --allow-net --allow-read --allow-write --unstable --allow-plugin --allow-env -c tsconfig.json ./server.ts",
       "desc": "run my server.ts file"
     }
   }

@@ -34,7 +34,7 @@ export class Answer extends Model {
   static fields = {
     "id": { primaryKey: true, autoIncrement: true },
     "sequence": DataTypes.INTEGER,
-    "answer": DataTypes.STRING,
+    "text": DataTypes.STRING,
     "questionId": Relationships.belongsTo(Question),
     "testId":   Relationships.belongsTo(Test)
   }
@@ -49,7 +49,6 @@ export class Result extends Model {
   static timestamps = true;
   static fields = {
     "id": { primaryKey: true, autoIncrement: true },
-    "testId": Relationships.belongsTo(Test),
     "userId": Relationships.belongsTo(User),
     "questionId": Relationships.belongsTo(Question),
     "answerId": Relationships.belongsTo(Answer)

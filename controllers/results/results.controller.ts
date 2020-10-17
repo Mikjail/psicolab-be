@@ -11,12 +11,11 @@ export class ResultsController {
       try {
         const { userId } = res.result;
 
-        const { questionId, testId } = body;
+        const { questionId } = body;
         
         const whereQuery = { 
           userId,
-          questionId,
-          testId
+          questionId
         }
 
         const questionAnswered = await Result.where(whereQuery).all();
@@ -34,24 +33,6 @@ export class ResultsController {
 
     @UseHook(MyHook, 'payload')
     @Get('') // or specific path @Get("/hello")
-    async getResults(@QueryParam('testId') testId: string, @Res() res: any){
-      try {
-          const { userId } = res.result;
-          
-          const whereQuery = { 
-            userId,
-            testId
-          }
-  
-          return await Result.where(whereQuery).all();
-
-      } catch (error) {
-        return error
-      }
-    }
-
-    @UseHook(MyHook, 'payload')
-    @Get('/finalResult') // or specific path @Get("/hello")
     async getFinalResults(@QueryParam('testId') testId: string, @Res() res: any){
       try {
           const { userId } = res.result;
@@ -60,10 +41,9 @@ export class ResultsController {
             userId,
             testId
           }
-          const answers = await Answer.select('question_id', 'id').join(Question, Question.field('id'), Answer.field('question_id')).all();
           
-          const testResult = await Result.where(Result.field('test_id'), testId)
-          .join(Question , Question.field('id'), Result.field('question_id'))
+          const testResult = await Question.where(Question.field('test_id'), testId)
+          .join(Result , Result.field('question_id'), Question.field('id'))
           .all();
           
           return testResult;
