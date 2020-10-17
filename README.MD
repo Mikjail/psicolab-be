@@ -1,6 +1,7 @@
-# HOW TO RUN SERVER
-1. Install denon
-2. denon start
+# TO DO
+- [ ] BE - Dockerize BE
+- [ ] UI - Add Login
+- [ ] UI - Add Result summary
 
 # APIs
 
@@ -19,8 +20,30 @@
 - [x] api/results Get result from specific test 
 
 
-# TO DO
-- [ ] DB - Dockerize Postgres (Including create and insert of base DB)
-- [ ] BE - Dockerize BE
-- [ ] UI - Add Login
-- [ ] UI - Add Result summary
+GETTING STARTED
+
+# DB
+
+1. Get docker image:
+
+```
+docker build -t postgres .
+```
+
+2. Run docker container:
+
+```
+docker run -it -d --name psicolab-db -p 5432:5432 postgres
+```
+
+3. Insert data to container:
+
+```
+cat ./query-2.sql | docker exec -i psicolab-db psql -U postgres -d psicolab
+```
+
+# BE
+
+1. Install denon
+
+2. denon startx
