@@ -11,7 +11,8 @@ CREATE TABLE users (
 
 CREATE TABLE tests (
   id SERIAL PRIMARY KEY, 
-  name VARCHAR(20));
+  name VARCHAR(20),
+  points_conversion JSON);
 
 CREATE TABLE questions (
   id serial primary key, 

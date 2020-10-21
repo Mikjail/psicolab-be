@@ -2,11 +2,12 @@ import { App, CorsBuilder,Context, Content, HttpError } from "./deps/deps.ts";
 import { ResultsArea } from './controllers/results/results.area.ts';
 import { QuestionsArea } from './controllers/questions/questions.area.ts';
 import { UsersArea } from './controllers/users/users.area.ts';
+import { TestArea } from './controllers/tests/tests.area.ts';
 import { DB } from './config/db.config.ts'
 
 // Create alosaur application
 const app = new App({
-  areas: [QuestionsArea, UsersArea, ResultsArea],
+  areas: [QuestionsArea, UsersArea, ResultsArea, TestArea],
 });
 
 app.useCors(

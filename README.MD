@@ -19,11 +19,13 @@
 - [x] api/results/save Set answer result.
 - [x] api/results?testId=${testId} Get results from specific test 
 
+## Test Points (Summary)
 
+- [x] api/test/${testId}/points
 
-GETTING STARTED
+# GETTING STARTED
 
-# DB
+## DB
 
 1. Get docker image:
 
@@ -43,7 +45,7 @@ docker run -it -d --name psicolab-db -p 5432:5432 postgres
 cat ./query-2.sql | docker exec -i psicolab-db psql -U postgres -d psicolab
 ```
 
-# BE
+## BE
 
 1. Install denon
 
