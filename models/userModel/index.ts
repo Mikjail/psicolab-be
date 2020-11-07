@@ -52,11 +52,11 @@ export class User extends Model {
       return bcrypt.hash(password, salt);
   }
 
-  static generateJwt(id: string) {
+  static async generateJwt(id: string) {
     // Create the payload with the expiration date (token have an expiry date) and the id of current user (you can add that you want)
     const payload: Payload = {
       id,
-      exp: setExpiration(new Date().getTime() + JwtConfig.expirationTime),
+      exp: setExpiration(JwtConfig.expirationTime),
     };
     const header: Jose = {
       alg: JwtConfig.algorithm as Jose["alg"],
@@ -64,6 +64,6 @@ export class User extends Model {
     };
 
     // return the generated token
-    return makeJwt({ header, payload, key: JwtConfig.secretKey });
+    return await makeJwt({ header, payload, key: JwtConfig.secretKey });
   }
 }

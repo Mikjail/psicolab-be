@@ -1,5 +1,5 @@
 import { User, PostUser } from './../../models/userModel/index.ts';
-import { Controller, Get, Post, Delete, Param, Put, Body } from "../../deps/deps.ts";
+import { Controller, Get, Post, Delete, Param, Put, Body, UnauthorizedError, Content } from "../../deps/deps.ts";
 import * as bcrypt from "https://deno.land/x/bcrypt/mod.ts";
 
 @Controller('/user')
@@ -50,9 +50,9 @@ export class UserController {
   async login(@Body() body: { username: string, password: string }) {
     const user = await User.where("username", body.username).first();
     if (!user || !(await bcrypt.compare(body.password, user.password))) {
-      return false;
+      return Content("Invalid username/password", 401); 
     }
     // Call our new static method
-    return  { jwt: User.generateJwt(user.id) };
+    return  { jwt: await  User.generateJwt(user.id) };
   }
 }
