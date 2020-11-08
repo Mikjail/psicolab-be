@@ -1,5 +1,5 @@
-INSERT INTO users (username, password)
-values ('admin', '$2a$08$C2ScwN1rXLYTGMltPexYJeJW6sYcBjHuhgx6fuo0rzvWdSjhvozAe');
+INSERT INTO users (username, password, tests_assigned)
+values ('admin', '$2a$08$C2ScwN1rXLYTGMltPexYJeJW6sYcBjHuhgx6fuo0rzvWdSjhvozAe', ARRAY[1]);
 
 INSERT INTO tests (name, points_conversion)
 values ('Verbal Reasoning', 

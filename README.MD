@@ -10,6 +10,8 @@
 - [x] api/user/login Login users.
 - [x] api/user/create Signup users.
 - [x] api/user/delete Delete specific user.
+## Test
+- [x] api/test Get list of tests assigned by {userId}.
 
 ## Test Questions
 - [x] api/questions Get list of questions.

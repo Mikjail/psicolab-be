@@ -14,6 +14,7 @@ export interface PostUser {
   firstName: string;
   lastName: string;
   password: string;
+  testsAssigned: Number[];
 }
 
 export class User extends Model {
@@ -44,6 +45,10 @@ export class User extends Model {
     },
     username: {
       type: DATA_TYPES.STRING
+    },
+    testsAssigned: {
+      type: DATA_TYPES.JSON,
+      allowNull: true
     }
   };
 

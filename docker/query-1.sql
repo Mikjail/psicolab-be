@@ -1,6 +1,7 @@
 
 CREATE TABLE users (
   id SERIAL PRIMARY KEY, 
+  tests_assigned INTEGER[],
   first_name VARCHAR(255),
   last_name VARCHAR(255),
   location VARCHAR(255),

@@ -1,9 +1,29 @@
-import { Test } from './../../models/quizModel/index.ts';
+import { Test, PostResult } from './../../models/quizModel/index.ts';
 import { MyHook } from './../../middlewares/middleware.ts';
-import { Controller, Param, Get, UseHook } from "../../deps/deps.ts";
+import { Controller, Param, Get, UseHook, Res } from "../../deps/deps.ts";
+import { User } from "../../models/userModel/index.ts";
 
 @Controller("/test") // or specific path @Controller("/home")
 export class TestsController {
+    @UseHook(MyHook, 'payload')
+    @Get() // or specific path @Get("/hello")
+    async getTests(@Res() res: any)  {
+      try {
+        const { userId } = res.result;
+        
+        const whereQuery = { 
+          id: userId
+        }
+        
+        const user = await User.find(userId);
+
+        const tests = await Test.select('id', 'name').all();
+
+        return tests.filter( (test: PostResult) => user.testsAssigned.includes(test.id));
+      } catch (error) {
+        return {}
+      }
+    }
     @UseHook(MyHook, 'payload')
     @Get('/:testId/points') // or specific path @Get("/hello")
     async setResult(@Param('testId') testId: string) {

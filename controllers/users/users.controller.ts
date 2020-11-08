@@ -14,7 +14,8 @@ export class UserController {
         username: values.username,
         firstName: values.firstName,
         lastName: values.lastName,
-        password,
+        testsAssigned: values.testsAssigned,
+        password
       };
   
       await User.create(user as any);
