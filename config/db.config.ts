@@ -1,5 +1,5 @@
 import { User } from './../models/userModel/index.ts';
-import { Question, Answer,  Test, Result} from '../models/quizModel/index.ts';
+import { Question, Answer,  Test, Result, AssignedTest} from '../models/quizModel/index.ts';
 // Database.ts
 import { Database } from "https://deno.land/x/denodb/mod.ts";
 
@@ -23,7 +23,7 @@ export class DB {
    * Initialise models
    */
   async initModels() {
-    await this.client.link([ Test, Question, Answer, User, Result]);
+    await this.client.link([ Test, Question, Answer, User, Result, AssignedTest]);
     
   }
 }

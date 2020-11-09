@@ -1,5 +1,5 @@
-INSERT INTO users (username, password, tests_assigned)
-values ('admin', '$2a$08$C2ScwN1rXLYTGMltPexYJeJW6sYcBjHuhgx6fuo0rzvWdSjhvozAe', ARRAY[1]);
+INSERT INTO users (username, password)
+values ('admin', '$2a$08$C2ScwN1rXLYTGMltPexYJeJW6sYcBjHuhgx6fuo0rzvWdSjhvozAe');
 
 INSERT INTO tests (name, points_conversion)
 values ('Verbal Reasoning', 
@@ -2167,6 +2167,10 @@ SELECT * FROM json_populate_recordset (NULL::answers,
   }
 ]');
 
+INSERT INTO assignedtests (user_id, test_id)
+values (1, 1);
+
+
 ALTER TABLE questions 
 ADD CONSTRAINT correct_answer_fk 
 FOREIGN KEY (correct_answer) 
@@ -2201,3 +2205,13 @@ ALTER TABLE results
 ADD CONSTRAINT user_id_fk 
 FOREIGN KEY (user_id) 
 REFERENCES users (id);
+
+ALTER TABLE assignedtests
+ADD CONSTRAINT user_id_fk 
+FOREIGN KEY (user_id) 
+REFERENCES users (id);
+
+ALTER TABLE assignedtests
+ADD CONSTRAINT test_id_fk 
+FOREIGN KEY (test_id) 
+REFERENCES tests (id);

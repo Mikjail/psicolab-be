@@ -63,6 +63,16 @@ export class Result extends Model {
   }
 }
 
+export class AssignedTest extends Model {
+  static table = 'assignedtests';
+  static timestamps = true;
+  static fields = {
+    "id": { primaryKey: true, autoIncrement: true },
+    "userId": Relationships.belongsTo(User),
+    "questionId": Relationships.belongsTo(Question),
+  }
+}
+
 export interface PostResult {
   id: number;
   userId: string;

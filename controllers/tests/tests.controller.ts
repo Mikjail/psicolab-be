@@ -1,4 +1,4 @@
-import { Test, PostResult } from './../../models/quizModel/index.ts';
+import { Test, PostResult, AssignedTest } from './../../models/quizModel/index.ts';
 import { MyHook } from './../../middlewares/middleware.ts';
 import { Controller, Param, Get, UseHook, Res } from "../../deps/deps.ts";
 import { User } from "../../models/userModel/index.ts";
@@ -11,15 +11,11 @@ export class TestsController {
       try {
         const { userId } = res.result;
         
-        const whereQuery = { 
-          id: userId
-        }
+        const tests = await AssignedTest.select('tests.id', 'tests.name')
+        .where('user_id', userId)
+        .join(Test, Test.field('id'), AssignedTest.field('test_id')).all();
         
-        const user = await User.find(userId);
-
-        const tests = await Test.select('id', 'name').all();
-
-        return tests.filter( (test: PostResult) => user.testsAssigned.includes(test.id));
+        return tests;
       } catch (error) {
         return {}
       }

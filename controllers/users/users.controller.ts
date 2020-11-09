@@ -14,7 +14,6 @@ export class UserController {
         username: values.username,
         firstName: values.firstName,
         lastName: values.lastName,
-        testsAssigned: values.testsAssigned,
         password
       };
   

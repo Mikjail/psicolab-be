@@ -36,3 +36,9 @@ CREATE TABLE results (
   answer_id integer, 
   created_at timestamp default current_timestamp,
   updated_at timestamp);
+
+CREATE TABLE assignedtests (
+  id serial primary key, 
+  user_id integer, 
+  test_id integer
+)
