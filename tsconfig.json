@@ -2,6 +2,11 @@
 {
   "target": "es6",
   "compilerOptions": {
+    "plugins": [
+      {
+          "name": "typescript-deno-plugin"
+      }
+  ],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "allowJs": true

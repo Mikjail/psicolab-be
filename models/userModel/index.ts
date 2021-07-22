@@ -6,7 +6,7 @@ import {
   Jose,
   Payload,
 } from "https://deno.land/x/djwt/create.ts";
-import * as bcrypt from "https://deno.land/x/bcrypt/mod.ts";
+import { bcrypt } from "../../deps/deps.ts";
 
 export interface PostUser {
   id?: string;

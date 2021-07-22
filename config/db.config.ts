@@ -1,29 +1,29 @@
 import { User } from './../models/userModel/index.ts';
-import { Question, Answer,  Test, Result, AssignedTest} from '../models/quizModel/index.ts';
+import { Question, Answer, Test, Result, AssignedTest } from '../models/quizModel/index.ts';
 // Database.ts
-import { Database } from "https://deno.land/x/denodb/mod.ts";
+import { Database, PostgresConnector } from 'https://deno.land/x/denodb/mod.ts';
 
 export class DB {
-  client: Database;
+  db: Database;
 
-	/**
-   * Initialise database client
+  /**
+   * Initialize database
    */
   constructor() {
-    this.client =  new Database('postgres', {
+    const connector = new PostgresConnector({
       host: 'localhost',
       port: 5432,
       database: 'psicolab',
       username: 'postgres',
-      password: 'm64ever'
+      password: 'm64ever',
     });
+    this.db = new Database(connector);
   }
 
   /**
-   * Initialise models
+   * Initialize models
    */
   async initModels() {
-    await this.client.link([ Test, Question, Answer, User, Result, AssignedTest]);
-    
+    await this.db.link([Test, Question, Answer, User, Result, AssignedTest]);
   }
 }

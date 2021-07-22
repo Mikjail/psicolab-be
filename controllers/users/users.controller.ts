@@ -1,6 +1,16 @@
 import { User, PostUser } from './../../models/userModel/index.ts';
-import { Controller, Get, Post, Delete, Param, Put, Body, UnauthorizedError, Content } from "../../deps/deps.ts";
-import * as bcrypt from "https://deno.land/x/bcrypt/mod.ts";
+import {
+  Controller,
+  Get,
+  Post,
+  Delete,
+  Param,
+  Put,
+  Body,
+  UnauthorizedError,
+  Content,
+} from '../../deps/deps.ts';
+import { bcrypt } from '../../deps/deps.ts';
 
 @Controller('/user')
 export class UserController {
@@ -9,16 +19,16 @@ export class UserController {
     try {
       // Call static user method
       const password = await User.hashPassword(values.password);
-  
+
       const user: PostUser = {
         username: values.username,
         firstName: values.firstName,
         lastName: values.lastName,
-        password
+        password,
       };
-  
+
       await User.create(user as any);
-  
+
       return values;
     } catch (error) {
       return error;
@@ -37,22 +47,22 @@ export class UserController {
 
   @Get('/:id')
   getOne(@Param('id') id: string) {
-    return User.where("id", id).first();
+    return User.where('id', id).first();
   }
 
   @Put('/:id')
   async update(@Param('id') id: string, values: PostUser) {
-    await User.where("id", id).update(values as any);
+    await User.where('id', id).update(values as any);
     return this.getOne(id);
   }
 
   @Post('/login')
-  async login(@Body() body: { username: string, password: string }) {
-    const user = await User.where("username", body.username).first();
-    if (!user || !(await bcrypt.compare(body.password, user.password))) {
-      return Content("Invalid username/password", 401); 
+  async login(@Body() body: { username: string; password: string }) {
+    const user = await User.where('username', body.username).first();
+    if (!user || !(await bcrypt.compare(body.password, user.password as string))) {
+      return Content('Invalid username/password', 401);
     }
     // Call our new static method
-    return  { jwt: await  User.generateJwt(user.id) };
+    return { jwt: await User.generateJwt(user.id as string) };
   }
 }
