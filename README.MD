@@ -72,7 +72,7 @@ denon start
 denon start
 ```
 It should show the following message 
-```Debugger listening on ws://127.0.0.1:9229/ws/[hash]``
+```Debugger listening on ws://127.0.0.1:9229/ws/[hash]```
 
 2.  Launch Deno in VsCode. Once this is done you will see in the terminal the following mssge
 
